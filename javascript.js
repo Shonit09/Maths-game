@@ -36,7 +36,7 @@ document.getElementById("startreset").onclick=function(){
         //generate a new Q&A
         generateQA();
     }
-}w
+}
 
 //clicking on the answer box
 
