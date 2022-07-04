@@ -2,6 +2,7 @@ var playing=false;
 var score;
 var action;
 var timeremaining;
+var correctAnswer;
 
 //if click start/reset
 document.getElementById("startreset").onclick=function(){
@@ -12,7 +13,7 @@ document.getElementById("startreset").onclick=function(){
     else{//if we are not playing
 
         //change mode to playing
-        playing=0;
+        playing=true;
 
         //set score to 0
         score=0;
@@ -35,7 +36,7 @@ document.getElementById("startreset").onclick=function(){
         //generate a new Q&A
         generateQA();
     }
-}
+}w
 
 //clicking on the answer box
 
